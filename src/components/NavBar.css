@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f1d16b;
+  padding: 40px 0;
+}
+
+.wrapper {
+  width: 1150px;
+  margin: auto;
+  background: white;
+}
+
+.topbar {
+  background: #0f4a2f;
+  color: white;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  font-size: 12px;
+}
+
+.offer,
+.location {
+  display: flex;
+  gap: 15px;
+}
+
+.navbar {
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: #0f4a2f;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+}
+
+.navbar li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.search {
+  width: 280px;
+  background: #f5f5f5;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.search input {
+  border: none;
+  outline: none;
+  background: transparent;
+  flex: 1;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+}
+
+.icons span {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.hero {
+  margin: 20px 30px;
+  background: #f7f1eb;
+  height: 280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 70px;
+}
+
+.hero h1 {
+  font-size: 45px;
+  color: #0f4a2f;
+  line-height: 1.1;
+  font-weight: 650;
+  text-align: left;
+}
+
+.hero button {
+  border: none;
+  background: #0f4a2f;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-right: 65%;
+}
+
+.hero img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.filters {
+  display: flex;
+  gap: 12px;
+  padding: 20px 30px;
+  flex-wrap: wrap;
+}
+
+.filters button {
+  border: none;
+  background: #f3f3f3;
+  padding: 10px 18px;
+  border-radius: 20px;
+}
+
+.sort {
+  margin-left: auto;
+  background-color: white !important;
+  border: 1px solid #ccc !important;
+}
+
+.title {
+  padding: 20px;
+  font-size: 25px;
+  text-align: left;
+  margin-left: 15px;
+}
+
+.products {
+  padding: 0 30px 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  position: relative;
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  background: #e4dfdf;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.heart {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: gray;
+}
+
+.card h3 {
+  font-size: 16px;
+  text-align: left;
+  color: rgba(24, 23, 23, 0.829);
+}
+
+.price-row {
+  margin-top: -30px;
+  font-weight: 700;
+  margin-left: 80%;
+  font-size: 15px;
+  color: rgba(24, 23, 23, 0.829);
+}
+
+.dollar {
+  font-size: 10px;
+  position: relative;
+  top: -3px;
+}
+
+.cent {
+  font-size: 11px;
+  position: relative;
+  top: -3px;
+  margin-left: 1px;
+}
+
+.card small {
+  display: block;
+  margin-top: 5px;
+  color: #666;
+  text-align: left;
+  font-size: 12px;
+}
+
+.rating {
+  color: green;
+  margin-right: 59%;
+  font-size: 15px;
+}
+
+.card button {
+  margin-top: 5px;
+  padding: 10px 25px;
+  border-radius: 25px;
+  border: 1px solid #0f4a2f;
+  background: white;
+  cursor: pointer;
+  margin-right: 52%;
+}
+
+.active-btn {
+  background: #0f4a2f !important;
+  color: white;
+}
