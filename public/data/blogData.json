@@ -1,45 +1,45 @@
 [
   {
     "_id": 1,
-    "thumbnail": "../e-commerce-site/assets/blogs/blog-1.jpeg",
+    "thumbnail": "../cinema/assets/blogs/blog-1.jpeg",
     "category": "5D Theatre",
     "title": "Experience the Magic of 5D Cinema Like Never Before",
     "author": {
       "name": "Maria Doe",
-      "image": "../e-commerce-site/assets/blogs/blog-author-1.jpg"
+      "image": "../cinema/assets/blogs/blog-author-1.jpg"
     },
     "date": "Jan 1, 2026"
   },
   {
     "_id": 2,
-    "thumbnail": "../e-commerce-site/assets/blogs/blog-2.jpeg",
+    "thumbnail": "../cinema/assets/blogs/blog-2.jpeg",
     "category": "Disney",
     "title": "Top Disney Movies Every Family Should Watch This Year",
     "author": {
       "name": "Allisa Mayer",
-      "image": "../e-commerce-site/assets/blogs/blog-author-2.jpg"
+      "image": "../cinema/assets/blogs/blog-author-2.jpg"
     },
     "date": "May 10, 2025"
   },
   {
     "_id": 3,
-    "thumbnail": "../e-commerce-site/assets/blogs/blog-3.jpeg",
+    "thumbnail": "../cinema/assets/blogs/blog-3.jpeg",
     "category": "Theatre",
     "title": "Why The Big Screen Still Beats Streaming at Home",
     "author": {
       "name": "Mark Dower",
-      "image": "../e-commerce-site/assets/blogs/blog-author-3.jpg"
+      "image": "../cinema/assets/blogs/blog-author-3.jpg"
     },
     "date": "June 23, 2026"
   },
   {
     "_id": 4,
-    "thumbnail": "../e-commerce-site/assets/blogs/blog-4.jpeg",
+    "thumbnail": "../cinema/assets/blogs/blog-4.jpeg",
     "category": "Theatre Cater",
     "title": "How Modern Theatres Create Unforgettable epic",
     "author": {
       "name": "Lisa Neymar",
-      "image": "../e-commerce-site/assets/blogs/blog-author-4.jpg"
+      "image": "../cinema/assets/blogs/blog-author-4.jpg"
     },
     "date": "march 23, 2026"
   }

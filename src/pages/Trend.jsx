@@ -11,7 +11,7 @@ function Trend() {
   const [slides, setSlides] = useState([]);
 
   const fetchData = () => {
-    fetch("http://localhost:5173/e-commerce-site/data/movieData.json")
+    fetch("cinema/data/movieData.json")
       .then((res) => res.json())
       .then((data) => setSlides(data))
       .catch((e) => console.log(e.message));
@@ -71,7 +71,7 @@ function Trend() {
         </div>
       </div>
     </section>
-  ); 
+  );
 }
 
 export default Trend;

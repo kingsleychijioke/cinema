@@ -5,11 +5,14 @@
 }
 
 .footer .footer-top {
-  background: url(./footer-bg.jpeg);
-  background-size: contain;
+  background-color: #000;
+  background-image: url("./footer-bg.jpeg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 380px auto; /* Control image size */
   border-top: 1px solid var(--primary);
   border-bottom: 1px solid var(--primary);
-  padding: 60px 0 30px 0;
+  padding: 60px 0;
 }
 
 .footer .footer-top .footer-info {

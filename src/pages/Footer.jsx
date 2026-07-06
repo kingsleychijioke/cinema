@@ -34,10 +34,11 @@ function Footer() {
                 <span>CINEMA</span>
               </a>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Inventore neque quaerat non ullam, fuga ex nesciunt similique!
-                Dicta sequi debitis et, necessitatibus beatae, aliquid dolorem
-                ullam quaerat obcaecati qui quo!
+           <p>
+  Experience the magic of cinema with the latest blockbuster movies,
+  exclusive premieres, and unforgettable entertainment. From action to
+  adventure, there's always something worth watching.
+</p>
               </p>
               <div className="social-links mt-3">
                 <a href="#" className="twitter">
