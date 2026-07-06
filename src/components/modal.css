@@ -1,0 +1,52 @@
+.moviemodal {
+  position: absolute;
+  content: "";
+  top: 90px;
+  left: 100px;
+  right: 100px;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.5);
+  z-index: 1500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: 1s;
+  max-width: 1050px;
+  max-height: 700px;
+}
+
+.moviemodal iframe {
+  max-width: 1050px;
+  max-height: 700px;
+}
+
+.moviemodal .modalclose {
+  position: absolute;
+  top: 0.5%;
+  margin-left: 97%;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 1.8rem;
+  border: 1px solid red;
+  background-color: red;
+  width: 20px;
+  height: 20px;
+}
+
+.moviemodal.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.icon {
+  color: #ffffff;
+  margin-top: -20px;
+  margin-left: -7px;
+  margin-top: -28px;
+  font-size: 2rem;
+  font-weight: bold;
+}
