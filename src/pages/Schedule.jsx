@@ -3,12 +3,14 @@ import "./schedule.css";
 import Card from "./Card";
 
 function Schedule() {
+  const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
+
   const filterList = [
     { _id: 1, name: "All", id: 0, active: true },
     { _id: 2, name: "Action", id: 28, active: false },
     { _id: 3, name: "Adventure", id: 12, active: false },
-{ "id": 35, "name": "Comedy" },
- { "id": 10749, "name": "Romance" },
+    { id: 35, name: "Comedy" },
+    { id: 10749, name: "Romance" },
     { _id: 5, name: "Thriller", id: 53, active: false },
   ];
 
@@ -21,14 +23,14 @@ function Schedule() {
   const fetchData = async () => {
     try {
       const res = await fetch(
-        `https://api.themoviedb.org/3/movie/popular?api_key=14d6a93f32798aeb3e4afc9ac75ce619&page=${page}`,
+        `https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}&page=${page}`,
       );
 
       const data = await res.json();
-    const movies = data.results.slice(0, 18);
+      const movies = data.results.slice(0, 18);
 
       setData(movies);
-    setmovies(movies);
+      setmovies(movies);
     } catch (err) {
       console.log(err);
     }
@@ -79,7 +81,7 @@ function Schedule() {
             ))}
           </ul>
         </div>
-        <div className="row mt-5" >
+        <div className="row mt-5">
           {movies &&
             movies.length > 0 &&
             movies.map((movies) => <Card key={movies.id} movies={movies} />)}
