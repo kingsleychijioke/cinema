@@ -11,7 +11,7 @@ function Trend() {
   const [slides, setSlides] = useState([]);
 
   const fetchData = () => {
-    fetch("cinema/data/movieData.json")
+    fetch("/cinema/data/movieData.json")
       .then((res) => res.json())
       .then((data) => setSlides(data))
       .catch((e) => console.log(e.message));
